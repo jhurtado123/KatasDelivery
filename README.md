@@ -76,6 +76,10 @@ function maskify(cc) {
 
 ##FLATTEN
 
-
+##Square every digit
+function squareDigits(num){
+  //may the code be with you
+  return parseInt(num.toString().split('').reduce((a, b) => a + Math.pow(b,2).toString(), ''));
+}
 
 ```
